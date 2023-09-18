@@ -1,6 +1,7 @@
 package net.moritz_htk.advancedmusicmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
@@ -31,7 +32,29 @@ public class AMMItems {
         return Registry.register(Registries.ITEM, new Identifier(AdvancedMusicMod.MOD_ID, name), new MusicDiscItem(9, sound, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), lengthInSeconds));
     }
 
+    public static void addItemsToItemGroup() {
+        addToItemGroup(AMMItems.MUSIC_DISC_AUGUST);
+        addToItemGroup(AMMItems.MUSIC_DISC_CATTAILS);
+        addToItemGroup(AMMItems.MUSIC_DISC_CHERRY_BLOSSOM);
+        addToItemGroup(AMMItems.MUSIC_DISC_DEATH_OF_KINGS);
+        addToItemGroup(AMMItems.MUSIC_DISC_HEDWIG);
+        addToItemGroup(AMMItems.MUSIC_DISC_JUST_IN_TIME);
+        addToItemGroup(AMMItems.MUSIC_DISC_LAPSE);
+        addToItemGroup(AMMItems.MUSIC_DISC_MIDNIGHT_TALE);
+        addToItemGroup(AMMItems.MUSIC_DISC_PAIN);
+        addToItemGroup(AMMItems.MUSIC_DISC_QUIET);
+        addToItemGroup(AMMItems.MUSIC_DISC_SCREEN_SAVER);
+        addToItemGroup(AMMItems.MUSIC_DISC_SLEEP);
+        addToItemGroup(AMMItems.MUSIC_DISC_TABUK);
+        addToItemGroup(AMMItems.MUSIC_DISC_WITH_REGARDS);
+    }
+
+    private static void addToItemGroup(Item item) {
+        ItemGroupEvents.modifyEntriesEvent(AMMItemGroup.ADVANCED_MUSIC_MOD_TAB).register(entries -> entries.add(item));
+    }
+
     public static void registerModItems() {
         AdvancedMusicMod.LOGGER.info("Registering Items for " + AdvancedMusicMod.MOD_ID);
+        addItemsToItemGroup();
     }
 }
