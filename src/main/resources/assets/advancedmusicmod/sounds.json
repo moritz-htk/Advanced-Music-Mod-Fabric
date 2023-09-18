@@ -1,0 +1,114 @@
+{
+  "music_disc.august": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/august",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.cattails": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/cattails",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.cherry_blossom": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/cherry_blossom",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.death_of_kings": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/death_of_kings",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.hedwig": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/hedwig",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.just_in_time": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/just_in_time",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.lapse": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/lapse",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.midnight_tale": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/midnight_tale",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.pain": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/pain",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.quiet": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/quiet",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.screen_saver": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/screen_saver",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.sleep": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/sleep",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.tabuk": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/tabuk",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.with_regards": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/with_regards",
+        "stream": true
+      }
+    ]
+  }
+}
