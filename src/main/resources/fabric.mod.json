@@ -3,7 +3,7 @@
 	"id": "advancedmusicmod",
 	"version": "${version}",
 	"name": "Advanced Music Mod",
-	"description": "Many well-known McDonalds products have been added.",
+	"description": "Adds new music discs to Minecraft.",
 	"authors": [
 		"moritz_htk"
 	],
