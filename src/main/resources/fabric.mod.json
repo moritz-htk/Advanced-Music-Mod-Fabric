@@ -31,7 +31,10 @@
 	},
 	"custom": {
 		"catalogue": {
-			"banner": "assets/advancedmusicmod/icon.png",
+			"icon": {
+				"item": "advancedmusicmod:music_disc_august"
+			},
+			"banner": "assets/advancedmusicmod/banner.png",
 			"background": "assets/advancedmusicmod/background.png"
 		},
 		"modmenu": {
